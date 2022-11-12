@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+/*STYLES GENERAL*/
+
+
+.about {
+    background: #171717;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+.titles{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Sansita', sans-serif;
+
+}
+
+
+
+.Analisis{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    padding-right: 1350px;
+    color: #9c27b0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+    text-align: justify;
+    align-items: flex-start;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+
+
+/*PARTE DE NAV BAR*/
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+
+.headero {
+    height: 100vh !important;
+    background: url(caratula.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    margin-left: 100px;
+
+}
+
+
+.btn-home {
+    display: flex;
+    margin-left: 70px;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.texto{
+    text-align: justify;
+    color: #264268;
+
+}
+
+/*.*/
+
+/*PARTE DE INDICE 2*/
+
+.headerep{
+    height: 85vh !important;
+    background:#171717;
+    background-size: cover;
+}
+
+.titlep {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#9c27b0;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 1380px;
+}
+
+.separarimagen{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-home {
+    display: flex;
+    margin-left: 150px;
+    
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.texto{
+    text-align: justify;    
+    color: #ffffff;
+    margin-right: 400px;
+}
+
+.atardecer{
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+
+/*.*/
+
+/*PRIMER PARTE(REGIONALIZACIÓN ECONÓMICA Y PRODUCTIVA)*/
+
+.content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+
+/*.*/
+
+/*SEGUNDA PARTE(REGIONALIZACIÓN PRODUCTIVA EN TODO EL TERRITORIO DEL URUGUAY)*/
+.title-segundo{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Sansita', sans-serif;
+
+}
+
+.contentis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1100px;
+}
+
+/*.*/
+
+
+
+/*MAPA URU*/
+
+.titler{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #9c27b0;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 1350px;
+}
+
+.imagenes_mapa{
+    display: flex;
+    padding: 35px;
+}
+
+.referencias{
+    width: 500px;
+    margin-right: 30px;
+}
+
+.mapauy{
+    width: 500px;
+    margin-left: 30px;
+}
+
+.contentox{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.*/
+
+/*PARTE CON FOTO LOS DEDOS*/
+
+.contenter {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    background: url(pde3.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+/*.*/
+
+/*ECONOMIA MALDONADO*/
+
+.Analisisx{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    padding-right: 1350px;
+    color: #9c27b0;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 180px;
+}
+
+.contentero{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.aboutp{
+    background:#1f1d1d;
+}
+
+.title-tercero{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Sansita', sans-serif;
+
+}
+
+.eco-maldonado{
+    text-align: justify;
+}
+
+.sintesis{
+    color:#b362c2 ;
+}
+
+.sintesis_dos{
+    color: #b362c2;
+}
+
+    /*.*/
+
+
+/*ALGUGAS GRAFICAS*/
+
+.title-cuarto{
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Sansita', sans-serif;
+    align-self: flex-start;
+    margin-top: 60px;
+    background-color:#9c27b0;
+    color: #fff;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    margin-left: 150px;
+
+
+}
+
+.graficas{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.graf3{
+    width: 480px;
+}
+
+
+.graf2{
+    width: 480px;
+    margin-right: 70px;
+}
+
+
+.graf1{
+    width: 480px;
+    margin-right: 70px;
+
+}
+
+
+
+
+
+
+  /*.*/
+
+/*ABOUT US*/
+.subtitle{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Sansita', sans-serif;
+}
+
+.containerau{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0px;
+    background:#171717;
+}
+
+.testimony__grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+
+
+
+.testimony__item{
+    width: 80%;
+    margin: auto;
+    background-color:rgb(116, 18, 18) ;
+    box-shadow: 0 8px 10px rgba(153, 48, 48, 0.5);
+    border-radius: 7px;
+    padding: 40px 25px;
+    color: #f2f2f2;
+    margin-bottom: 50px;
+}
+
+.testimony__itemss{
+    width: 80%;
+    margin: auto;
+    background-color:rgb(116, 18, 18) ;
+    box-shadow: 0 8px 10px rgba(153, 48, 48, 0.5);
+    border-radius: 7px;
+    padding: 20px 25px;
+    color: #f2f2f2;
+    margin-bottom: 50px;
+}
+
+
+
+.testimony__pearson{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimony__pearsonss{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimony__img{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: 30px;
+}
+
+
+.testimony__name{
+    font-size: 1,5rem;
+    margin-bottom: 10px;
+}
+
+.testimony__verification{
+    color: #e0afa0 ;
+    font-weight: 700;
+}
+
+.testimony__review{
+    font-weight: 300px;
+}
+
+
+/*Pie de pag (Parte cole)*/
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.titled{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(116, 18, 18);
+    padding-left: 20px;
+    font-family: 'Sansita', sans-serif;
+}
+
+.clase{
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.contento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+
+
+/*.*/
+
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
+
